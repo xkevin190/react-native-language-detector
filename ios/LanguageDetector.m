@@ -1,14 +1,13 @@
-#import "LanguageDetector.h"
 
+#import <Foundation/Foundation.h>
 
-@implementation LanguageDetector
+#import "React/RCTBridgeModule.h"
 
-RCT_EXPORT_MODULE()
+@interface RCT_EXTERN_MODULE(LanguageDectector, NSObject)
 
-RCT_EXPORT_METHOD(sampleMethod:(NSString *)stringArgument numberParameter:(nonnull NSNumber *)numberArgument callback:(RCTResponseSenderBlock)callback)
++ (BOOL)requiresMainQueueSetup
 {
-    // TODO: Implement some actually useful functionality
-    callback(@[[NSString stringWithFormat: @"numberArgument: %@ stringArgument: %@", numberArgument, stringArgument]]);
+    return YES;
 }
-
 @end
+
