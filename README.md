@@ -1,17 +1,3 @@
 # react-native-language-detector
 
-## Getting started
-
-`$ npm install react-native-language-detector --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-language-detector`
-
-## Usage
-```javascript
-import LanguageDetector from 'react-native-language-detector';
-
-// TODO: What to do with the module?
-LanguageDetector;
-```
+Detecta el lenguaje para configuracion i18next , pero esto solo exporta el lenguaje. Esto no es particularmente útil en sí mismo y probablemente querrás usarlo con una biblioteca i18n como i18next .
