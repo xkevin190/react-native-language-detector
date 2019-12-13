@@ -1,3 +1,3 @@
 # react-native-language-detector
 
-Detecta el lenguaje para configuracion i18next , pero esto solo exporta el lenguaje. Esto no es particularmente útil en sí mismo y probablemente querrás usarlo con una biblioteca i18n como i18next .
+Detects the language for i18next configuration, the project was taken as a reference https://github.com/dylanvann/react-native-locale-detector to add support to iOS devices
