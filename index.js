@@ -1,5 +1,5 @@
 import { NativeModules } from 'react-native';
 
-const { LanguageDetector } = NativeModules;
+const { LanguageDectector } = NativeModules;
 
-export default LanguageDetector;
+export default LanguageDectector.locale;
