@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0" }
+  s.swift_versions = ['4.2', '5']
   s.source       = { :git => "https://github.com/github_account/react-native-language-detector.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
-
   s.dependency "React"
   # ...
   # s.dependency "..."

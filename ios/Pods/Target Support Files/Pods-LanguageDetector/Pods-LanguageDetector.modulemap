@@ -1,0 +1,6 @@
+framework module Pods_LanguageDetector {
+  umbrella header "Pods-LanguageDetector-umbrella.h"
+
+  export *
+  module * { export * }
+}
